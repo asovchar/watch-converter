@@ -1,2 +1,2 @@
 # watch-converter
-Image converter for Apple Watch
+Image converter for Apple Watch screen
