@@ -102,3 +102,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# PyCharm
+.DS_Store
+.idea
+
+Jupyter Notebook
+*.ipynb
+
+res/
+src/
