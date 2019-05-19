@@ -8,7 +8,7 @@ def fix(img_arr, ind=1, num=3):
     for i in range(ind, h-ind):
         for j in range(ind, w-ind):
             arr = np.array([img_arr[i+m, j+n] for m, n in product(range(-ind, ind+1), repeat=2)])
-            if len(arr[arr < 50]) > num:
+            if len(arr[arr < 75]) > num:
                 fix_arr[i, j] = 0
     return fix_arr
 

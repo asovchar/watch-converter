@@ -8,7 +8,7 @@ from magic.filename_tool import find_name
 
 def main():
     print('{:5s}  {:30s} {:30s}'.format('Index', 'Source', 'Result'))
-    for idx, img_name in enumerate(glob.glob('./src/*.jpg') + glob.glob('./res/*.png')):
+    for idx, img_name in enumerate(sorted(glob.glob('./src/*.jpg') + glob.glob('./res/*.png'))):
         img_arr = load.load_image(img_name)
 
         fixed = colors.fix(img_arr)
