@@ -106,9 +106,3 @@ venv.bak/
 # PyCharm
 .DS_Store
 .idea
-
-Jupyter Notebook
-*.ipynb
-
-res/
-src/
